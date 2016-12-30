@@ -12,3 +12,9 @@ print(seconds_per_day)
 print(seconds_per_day / seconds_per_hour)
 # 6
 print(seconds_per_day // seconds_per_hour)
+# string
+s = 'Hello world!'
+print(s[::2])
+print(s[::-1])
+print(s.split())
+print(' '.join(s.split()))
